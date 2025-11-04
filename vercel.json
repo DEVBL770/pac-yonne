@@ -9,7 +9,8 @@
     { "src": "api/send.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "^/api/send$", "dest": "api/send.js" },
+    { "src": "^/api/(.*)$", "dest": "/api/$1.js" },
+    { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
