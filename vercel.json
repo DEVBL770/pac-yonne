@@ -1,11 +1,15 @@
 {
   "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "dist",
+  "framework": "vite",
   "builds": [
     { "src": "index.html", "use": "@vercel/static-build", "config": { "distDir": "dist" } },
     { "src": "api/send.js", "use": "@vercel/node" }
   ],
   "routes": [
     { "src": "^/api/send$", "dest": "api/send.js" },
-    { "src": "^/(.*)$", "dest": "/index.html" }
+    { "src": ".*", "dest": "/index.html" }
   ]
 }
