@@ -1,0 +1,19 @@
+.wrap{background:linear-gradient(135deg,rgba(58,137,232,.04),rgba(0,184,148,.04));padding:64px 0}
+.title{font-size:1.6rem;margin:0 0 .4rem}
+.lead{margin:.2rem 0 1rem;color:var(--muted)}
+
+.chips{
+  display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px
+}
+.chip{
+  display:inline-block;padding:8px 12px;border-radius:999px;
+  background:#fff;border:1px solid var(--border);box-shadow:var(--shadow);
+  font-size:.95rem
+}
+
+.image{text-align:center}
+.image img{
+  width:100%;max-width:600px;border-radius:16px;box-shadow:var(--shadow);
+  transition:transform .25s ease, filter .25s ease
+}
+.image img:hover{transform:translateY(-4px) scale(1.02);filter:saturate(1.05)}

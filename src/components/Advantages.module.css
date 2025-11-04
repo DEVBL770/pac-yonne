@@ -1,0 +1,15 @@
+﻿.title{font-size:1.6rem;margin:0 0 1rem}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+.item{
+  background:rgba(255,255,255,.82);
+  backdrop-filter:saturate(140%) blur(8px);
+  border:1px solid rgba(226,232,240,.8);
+  border-radius:18px; padding:18px;
+  box-shadow:0 10px 30px rgba(16,24,40,.08);
+  transition:transform .22s ease, box-shadow .22s ease;
+}
+.item:hover{transform:translateY(-4px); box-shadow:0 16px 36px rgba(16,24,40,.14)}
+.icon{font-size:26px;margin-bottom:.3rem}
+.item h3{margin:.1rem 0 .3rem;color:#0f172a}
+.item p{margin:0;color:var(--muted)}
+@media(min-width:720px){.grid{grid-template-columns:repeat(4,1fr)}}

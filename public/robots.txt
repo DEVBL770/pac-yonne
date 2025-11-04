@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pompe-a-chaleur-yonne.fr/sitemap.xml

@@ -1,0 +1,11 @@
+{
+  "name": "la plateforme",
+  "short_name": "Pompe à chaleur Yonne",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3A89E8",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "64x64 128x128 256x256", "type": "image/svg+xml" }
+  ]
+}

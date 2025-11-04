@@ -1,0 +1,13 @@
+﻿:root{
+  --brand-blue:#3A89E8;
+  --brand-green:#00B894;
+  --dark-blue:#102A43;
+  --text:#0f172a;
+  --muted:#475569;
+  --bg:#f8fafc;
+  --bg-white:#ffffff;
+  --border:#e2e8f0;
+  --radius:16px;
+  --shadow:0 8px 22px rgba(16, 24, 40, 0.08);
+  --transition:all .25s ease;
+}

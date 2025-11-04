@@ -1,0 +1,22 @@
+﻿.grid {
+  display:grid;
+  gap:1.5rem;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+.item {
+  background:var(--bg-white);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:1.5rem;
+  box-shadow:var(--shadow);
+  transition:var(--transition);
+  text-align:center;
+}
+.item:hover {
+  transform:translateY(-4px);
+}
+.item h3 {
+  color:var(--brand-blue);
+  margin-bottom:0.6rem;
+}
+

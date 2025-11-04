@@ -1,0 +1,6 @@
+.wrap{padding:80px 0}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.item{border-radius:16px;padding:22px;text-align:center;background:#fff;box-shadow:var(--shadow);transition:transform .25s}
+.item:hover{transform:translateY(-6px)}
+.icon{font-size:36px;margin-bottom:.5rem}
+h3{color:var(--brand-green)}
