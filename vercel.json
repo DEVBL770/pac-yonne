@@ -1,37 +1,11 @@
 {
   "version": 2,
-  "env": {
-    "NODE_ENV": "production"
-  },
   "builds": [
     { "src": "index.html", "use": "@vercel/static-build", "config": { "distDir": "dist" } },
     { "src": "api/send.js", "use": "@vercel/node" }
   ],
   "routes": [
     { "src": "^/api/send$", "dest": "api/send.js" },
-    { "src": "^/(mentions-legales|politique-de-confidentialite|conditions-generales-utilisation)\\.html$", "dest": "/$1.html" },
-    { "src": "^/(favicon\\.svg|manifest\\.json|robots\\.txt|sitemap\\.xml)$", "dest": "/$1" },
-    { "src": "^/(.*)\\.(png|jpg|jpeg|webp|svg|ico)$", "dest": "/$1.$2" },
-    { "src": ".*", "dest": "/index.html" }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)\\.(png|jpg|jpeg|webp|svg|ico)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
-    },
-    {
-      "source": "/(.*)\\.(css|js)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" }
-      ]
-    }
+    { "src": "^/(.*)$", "dest": "/index.html" }
   ]
 }

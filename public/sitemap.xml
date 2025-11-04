@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
   <url><loc>https://pompe-a-chaleur-yonne.fr/</loc></url>
-  <url><loc>https://pompe-a-chaleur-yonne.fr/mentions-legales</loc></url>
-  <url><loc>https://pompe-a-chaleur-yonne.fr/politique-de-confidentialite</loc></url>
-  <url><loc>https://pompe-a-chaleur-yonne.fr/conditions-generales-utilisation</loc></url>
-  <url><loc>https://pompe-a-chaleur-yonne.fr/blog</loc></url>
+  <url><loc>https://pompe-a-chaleur-yonne.fr/mentions-legales.html</loc></url>
+  <url><loc>https://pompe-a-chaleur-yonne.fr/politique-de-confidentialite.html</loc></url>
+  <url><loc>https://pompe-a-chaleur-yonne.fr/conditions-generales-utilisation.html</loc></url>
 </urlset>

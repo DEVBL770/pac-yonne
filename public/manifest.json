@@ -1,11 +1,11 @@
 {
-  "name": "la plateforme",
-  "short_name": "Pompe à chaleur Yonne",
+  "name": "Pompe à chaleur Yonne",
+  "short_name": "PAC Yonne",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3A89E8",
+  "theme_color": "#1b9aaa",
   "icons": [
-    { "src": "/favicon.svg", "sizes": "64x64 128x128 256x256", "type": "image/svg+xml" }
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }
